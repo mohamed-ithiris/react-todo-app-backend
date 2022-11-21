@@ -4,6 +4,7 @@
   "description": "todo app backend",
   "main": "index.js",
   "scripts": {
+    "start": "npx nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/mohamed-ithiris/react-todo-app-backend/issues"
   },
-  "homepage": "https://github.com/mohamed-ithiris/react-todo-app-backend#readme"
+  "homepage": "https://github.com/mohamed-ithiris/react-todo-app-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
