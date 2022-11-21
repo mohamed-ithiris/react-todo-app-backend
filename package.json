@@ -1,0 +1,24 @@
+{
+  "name": "react-todo-app-backend",
+  "version": "1.0.0",
+  "description": "todo app backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamed-ithiris/react-todo-app-backend.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "mohamed-ithiris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamed-ithiris/react-todo-app-backend/issues"
+  },
+  "homepage": "https://github.com/mohamed-ithiris/react-todo-app-backend#readme"
+}
