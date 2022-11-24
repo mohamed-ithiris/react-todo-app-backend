@@ -1,22 +1,7 @@
 const express = require("express");
 const router = express.Router();
+const { GetTodoController } = require("../controllers/GetTodoController");
 
-// router.get("/TodoList", (request, response) => {
-//     response.json({ data: ["name", "e3s"] })
-// })
-
-// router.use((_, res, next) => {
-//     console.log("Middleware")
-//     next();
-// })
-
-router.get('/', (_, res) => {
-    res.send("Hello World")
-})
-
-// router.get('/one', (_, res) => {
-//     res.send("hello world one")
-//     console.log("one")
-// })
+router.get("/getTodos", GetTodoController)
 
 module.exports = router;
